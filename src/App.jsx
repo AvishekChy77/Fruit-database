@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div>
-      <h2 className=' text-4xl font-semibold '>Fruit Database</h2>
+      <h2 className=' text-4xl font-semibold text-blue-800'>Fruit Database</h2>
       <p className=' font-medium my-5'>No of fruits: {fruits.length}</p>
       <div className='flex gap-5 items-center'>
         {
