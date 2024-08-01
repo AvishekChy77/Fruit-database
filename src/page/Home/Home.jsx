@@ -29,7 +29,7 @@ const Home = () => {
       <div className='my-5'>
         <h2>Countries I've visited: {visited.length}</h2>
       </div>
-      <div className='grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 items-center'>
+      <div className='grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 justify-between'>
         {
           countries.map(country=> <Country key={country} country={country}  handleVisit ={handleVisit}/>)
         }

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -29,7 +30,7 @@ const Navbar = () => {
     </div>
   </div>
   <div className="navbar-center">
-    <a className="btn btn-ghost text-xl">Countrify</a>
+    <Link to='/'  className="font-medium text-xl hover:scale-105">Countrify</Link>
   </div>
   <div className="navbar-end">
     <button className="btn btn-ghost btn-circle">

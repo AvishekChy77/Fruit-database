@@ -7,8 +7,10 @@ const Root = () => {
     return (
         <div className="flex flex-col gap-10">
             <Navbar/>
+            <div className="mx-5">
             <div className="container mx-auto text-center">
             <Outlet/>
+            </div>
             </div>
             <Footer/>
         </div>

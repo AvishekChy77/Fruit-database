@@ -6,7 +6,7 @@ const Country = ({country, handleVisit}) => {
   const {name, flags, population} = country || {}
   console.log(country)
   return (
-    <div className="card image-full bg-teal-50 h-72 w-96 shadow-xl group">
+    <div className="card image-full bg-teal-50 h-72 shadow-xl group">
   <figure>
     <img
     className= "w-full h-full object-cover transition-opacity duration-300 opacity-100 group-hover:opacity-55"
